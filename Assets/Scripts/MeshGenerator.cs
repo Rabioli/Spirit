@@ -8,12 +8,20 @@ public class MeshGenerator : MonoBehaviour
     Vector3[] vertices;
     int[] triangles;
     public int xSize = 20, zSize=20;
+    //Vector2[] uvs;
+    Color[] colors;
+    public Gradient gradient;
+    float minTerrainHeight, maxTerrainHeight;
+    public float scale = 10, offsetX=100, offsetZ=100;
+    public GameObject car;
     // Start is called before the first frame update
     void Start()
     {
+        offsetX = Random.Range(0f,999999f);
+        offsetZ = Random.Range(0f, 999999f);
+
         mesh = new Mesh();
         GetComponent<MeshFilter>().mesh = mesh;
-
         StartCoroutine(CreateShape());
     }
 
@@ -21,6 +29,7 @@ public class MeshGenerator : MonoBehaviour
     void Update()
     {
         UpdateMesh();
+        DeleteShape(car.transform.position);
     }
     IEnumerator CreateShape()
     {
@@ -30,8 +39,18 @@ public class MeshGenerator : MonoBehaviour
         {
             for (int x = 0; x <= xSize; x++)
             {
-                float y = Mathf.PerlinNoise(x*.5f, z*.3f) * 2f;
+                float fx = (float)x / xSize*scale+offsetX;
+                float fz = (float)z / zSize*scale+offsetZ;
+                float y = Mathf.PerlinNoise(fx,fz)*2.5f;
                 vertices[i] = new Vector3(x, y, z);
+                if (y > maxTerrainHeight)
+                {
+                    maxTerrainHeight = y;
+                }
+                if (y < minTerrainHeight)
+                {
+                    minTerrainHeight = y;
+                }
                 i++;
             }
         }
@@ -50,9 +69,22 @@ public class MeshGenerator : MonoBehaviour
                 triangles[tris + 5] = vert + xSize + 2;
                 vert++;
                 tris+=6;
-                yield return new WaitForSeconds(.05f);
+                yield return new WaitForSeconds(.000005f);
             }
             vert++;
+        }
+
+        //uvs = new Vector2[vertices.Length];
+        colors = new Color[vertices.Length];
+        for (int z = 0, i = 0; z <= zSize; z++)
+        {
+            for (int x = 0; x <= xSize; x++)
+            {
+                float height = Mathf.InverseLerp(minTerrainHeight, maxTerrainHeight, vertices[i].y);
+                //uvs[i] = new Vector2((float)x/xSize, (float)z/zSize);
+                colors[i] = gradient.Evaluate(height);
+                i++;
+            }
         }
 
     }
@@ -63,5 +95,10 @@ public class MeshGenerator : MonoBehaviour
         mesh.vertices = vertices;
         mesh.triangles = triangles;
         mesh.RecalculateNormals();
+        mesh.colors = colors;
+        //mesh.uv = uvs;
+    }
+    void DeleteShape(Vector3 carPosition){
+
     }
 }
