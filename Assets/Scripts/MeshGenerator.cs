@@ -5,6 +5,7 @@ using UnityEngine;
 public class MeshGenerator : MonoBehaviour
 {
     Mesh mesh;
+    Collider collider;
     Vector3[] vertices;
     int[] triangles;
     public int xSize = 20, zSize=20;
@@ -29,6 +30,7 @@ public class MeshGenerator : MonoBehaviour
     void Update()
     {
         UpdateMesh();
+        UpdateCollider();
         DeleteShape(car.transform.position);
     }
     IEnumerator CreateShape()
@@ -99,6 +101,10 @@ public class MeshGenerator : MonoBehaviour
         //mesh.uv = uvs;
     }
     void DeleteShape(Vector3 carPosition){
+
+    }
+
+    void UpdateCollider(){
 
     }
 }
