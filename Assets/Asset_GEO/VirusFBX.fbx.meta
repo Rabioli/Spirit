@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: 4a1f25d80bfa120488ca60326f2c9e5d
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Amortiguador_Base_Brazo_GEO1
+    100002: Amortiguador_Extra_GEO1
+    100004: Arm
+    100006: Arm_Support_GEO
+    100008: Arnes_Feet_GEO
+    100010: Base_Head_GEO
+    100012: Circle_BaseArm_GEO
+    100014: Cuerpo_GEO
+    100016: Extra_Feet_GEO
+    100018: Feet
+    100020: Geet_Tube_GEO
+    100022: Gun
+    100024: Gun_Base_GEO
+    100026: Gun_Espojas
+    100028: Gun_TubosLargos
+    100030: GunPart_GEO
+    100032: Head_GEO
+    100034: Leg_Bot_GEO
+    100036: Leg_First_GEO
+    100038: Leg_Middle_GEO
+    100040: Picos
+    100042: //RootNode
+    400000: Amortiguador_Base_Brazo_GEO1
+    400002: Amortiguador_Extra_GEO1
+    400004: Arm
+    400006: Arm_Support_GEO
+    400008: Arnes_Feet_GEO
+    400010: Base_Head_GEO
+    400012: Circle_BaseArm_GEO
+    400014: Cuerpo_GEO
+    400016: Extra_Feet_GEO
+    400018: Feet
+    400020: Geet_Tube_GEO
+    400022: Gun
+    400024: Gun_Base_GEO
+    400026: Gun_Espojas
+    400028: Gun_TubosLargos
+    400030: GunPart_GEO
+    400032: Head_GEO
+    400034: Leg_Bot_GEO
+    400036: Leg_First_GEO
+    400038: Leg_Middle_GEO
+    400040: Picos
+    400042: //RootNode
+    2100000: SoporteCabeza_MAT
+    2100002: Cabeza_MAT
+    2100004: Cuerpo_MAT
+    2100006: Piernas_MAT
+    2100008: PicosPies_MAT
+    2100010: Circulos_MAT
+    2300000: Amortiguador_Base_Brazo_GEO1
+    2300002: Amortiguador_Extra_GEO1
+    2300004: Arm_Support_GEO
+    2300006: Arnes_Feet_GEO
+    2300008: Base_Head_GEO
+    2300010: Circle_BaseArm_GEO
+    2300012: Cuerpo_GEO
+    2300014: Extra_Feet_GEO
+    2300016: Geet_Tube_GEO
+    2300018: Gun_Base_GEO
+    2300020: Gun_Espojas
+    2300022: Gun_TubosLargos
+    2300024: GunPart_GEO
+    2300026: Head_GEO
+    2300028: Leg_Bot_GEO
+    2300030: Leg_First_GEO
+    2300032: Leg_Middle_GEO
+    2300034: Picos
+    3300000: Amortiguador_Base_Brazo_GEO1
+    3300002: Amortiguador_Extra_GEO1
+    3300004: Arm_Support_GEO
+    3300006: Arnes_Feet_GEO
+    3300008: Base_Head_GEO
+    3300010: Circle_BaseArm_GEO
+    3300012: Cuerpo_GEO
+    3300014: Extra_Feet_GEO
+    3300016: Geet_Tube_GEO
+    3300018: Gun_Base_GEO
+    3300020: Gun_Espojas
+    3300022: Gun_TubosLargos
+    3300024: GunPart_GEO
+    3300026: Head_GEO
+    3300028: Leg_Bot_GEO
+    3300030: Leg_First_GEO
+    3300032: Leg_Middle_GEO
+    3300034: Picos
+    4300000: Base_Head_GEO
+    4300002: Head_GEO
+    4300004: Cuerpo_GEO
+    4300006: Leg_Bot_GEO
+    4300008: Leg_Middle_GEO
+    4300010: Arm_Support_GEO
+    4300012: Leg_First_GEO
+    4300014: Picos
+    4300016: Geet_Tube_GEO
+    4300018: Arnes_Feet_GEO
+    4300020: Extra_Feet_GEO
+    4300022: Gun_Base_GEO
+    4300024: GunPart_GEO
+    4300026: Gun_TubosLargos
+    4300028: Gun_Espojas
+    4300030: Circle_BaseArm_GEO
+    4300032: Amortiguador_Base_Brazo_GEO1
+    4300034: Amortiguador_Extra_GEO1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cabeza_MAT
+    second: {fileID: 2100000, guid: 306e63dd7d026e34db96950b7c1e3f5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Circulos_MAT
+    second: {fileID: 2100000, guid: 51885a11555b1b149a2e0ce07497475b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cuerpo_MAT
+    second: {fileID: 2100000, guid: 7e5e6494f7bdc6f4dbd9533535e7fb2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PicosPies_MAT
+    second: {fileID: 2100000, guid: 6a2f865506caa8f48873e71d1d91576e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Piernas_MAT
+    second: {fileID: 2100000, guid: 2e8b0d93ca27fe3478b3dbd74e9b2e12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SoporteCabeza_MAT
+    second: {fileID: 2100000, guid: d1372f8ff896a434ca6f4bb136a0968d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

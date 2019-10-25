@@ -15,4 +15,13 @@ public class EnemyMovement : MonoBehaviour
         transform.LookAt(player.transform);
         transform.position += transform.forward * speed * Time.deltaTime;
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.name == "Checkpoint")
+        {
+            Destroy(this.gameObject);
+            Debug.Log("Destroyed");
+        }
+    }
 }
