@@ -18,10 +18,20 @@ public class CarScript : MonoBehaviour
 
     private void OnCollisionEnter(Collision col)
     {
-        if (col.gameObject.name == "Enemy") {
+        if (col.gameObject.name == "Virus") {
             health--;
             Destroy(col.gameObject);
          }
+
+        if(col.gameObject.name == "GameOver")
+        {
+            col.gameObject.GetComponentInParent<TrackInteractionMaster>().gameOver();
+        }
+
+        if (col.gameObject.name == "Winner")
+        {
+            col.gameObject.GetComponentInParent<TrackInteractionMaster>().winner();
+        }
     }
 
     public void GetInput()
@@ -86,5 +96,6 @@ public class CarScript : MonoBehaviour
     public Transform backWheelLT, backWheelRT;
     public float maxSteerAngle = 30;
     public float motorForce = 50;
+    public GameObject track;
 
 }

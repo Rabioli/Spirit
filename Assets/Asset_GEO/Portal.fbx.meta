@@ -1,0 +1,194 @@
+fileFormatVersion: 2
+guid: b33f15fd89671f94f9d3296a5e5575de
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Brandales_GEO3
+    100002: Cajas_GEO
+    100004: Cilindros_Lado
+    100006: Lights
+    100008: Lights1
+    100010: Luz_Azul1
+    100012: Luz_Azul1 1
+    100014: Luz_Azul2
+    100016: Luz_Azul2 1
+    100018: Luz_Azul3
+    100020: Luz_Azul3 1
+    100022: Luz_Morada
+    100024: Luz_Morada 1
+    100026: //RootNode
+    100028: Portal_GEO
+    100030: Puente_GEO
+    100032: PuenteArriba_GEO
+    100034: PuenteTuboLado_GEO
+    100036: Reja_GEO
+    100038: RenderCAM
+    100040: rsPhysicalLight1
+    100042: rsPhysicalLight1 1
+    100044: rsPhysicalLight1 2
+    100046: rsPhysicalLight1 3
+    100048: rsPhysicalLight1 4
+    100050: rsPhysicalLight1 5
+    100052: rsPhysicalLight2
+    100054: rsPhysicalLight2 1
+    100056: rsPhysicalLight2 2
+    100058: rsPhysicalLight2 3
+    100060: rsPhysicalLight2 4
+    100062: rsPhysicalLight2 5
+    100064: rsPhysicalLightMorada
+    100066: rsPhysicalLightMorada 1
+    100068: rsPhysicalLightMorada1
+    100070: rsPhysicalLightMorada1 1
+    100072: Tunel_GEO
+    400000: Brandales_GEO3
+    400002: Cajas_GEO
+    400004: Cilindros_Lado
+    400006: Lights
+    400008: Lights1
+    400010: Luz_Azul1
+    400012: Luz_Azul1 1
+    400014: Luz_Azul2
+    400016: Luz_Azul2 1
+    400018: Luz_Azul3
+    400020: Luz_Azul3 1
+    400022: Luz_Morada
+    400024: Luz_Morada 1
+    400026: //RootNode
+    400028: Portal_GEO
+    400030: Puente_GEO
+    400032: PuenteArriba_GEO
+    400034: PuenteTuboLado_GEO
+    400036: Reja_GEO
+    400038: RenderCAM
+    400040: rsPhysicalLight1
+    400042: rsPhysicalLight1 1
+    400044: rsPhysicalLight1 2
+    400046: rsPhysicalLight1 3
+    400048: rsPhysicalLight1 4
+    400050: rsPhysicalLight1 5
+    400052: rsPhysicalLight2
+    400054: rsPhysicalLight2 1
+    400056: rsPhysicalLight2 2
+    400058: rsPhysicalLight2 3
+    400060: rsPhysicalLight2 4
+    400062: rsPhysicalLight2 5
+    400064: rsPhysicalLightMorada
+    400066: rsPhysicalLightMorada 1
+    400068: rsPhysicalLightMorada1
+    400070: rsPhysicalLightMorada1 1
+    400072: Tunel_GEO
+    2000000: RenderCAM
+    2100000: Barandal_MAT
+    2100002: Portal_MAT
+    2100004: Cajas_MAT
+    2100006: Reja_MAT
+    2100008: PuenteArribaDeco_MAT
+    2100010: PuenteArriba_MAT
+    2100012: Puente_MAT
+    2100014: Tubo_MAT
+    2300000: Brandales_GEO3
+    2300002: Cajas_GEO
+    2300004: Cilindros_Lado
+    2300006: Puente_GEO
+    2300008: PuenteArriba_GEO
+    2300010: PuenteTuboLado_GEO
+    2300012: Reja_GEO
+    2300014: Tunel_GEO
+    3300000: Brandales_GEO3
+    3300002: Cajas_GEO
+    3300004: Cilindros_Lado
+    3300006: Puente_GEO
+    3300008: PuenteArriba_GEO
+    3300010: PuenteTuboLado_GEO
+    3300012: Reja_GEO
+    3300014: Tunel_GEO
+    4300000: Brandales_GEO3
+    4300002: Tunel_GEO
+    4300004: Cajas_GEO
+    4300006: Reja_GEO
+    4300008: PuenteTuboLado_GEO
+    4300010: PuenteArriba_GEO
+    4300012: Puente_GEO
+    4300014: Cilindros_Lado
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 0
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

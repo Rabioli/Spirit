@@ -1,0 +1,290 @@
+fileFormatVersion: 2
+guid: 10f98bf29c12fa84985c7ce9aa9231ca
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Antena
+    100002: Antena1
+    100004: AntenaEsfera
+    100006: CiudadExtra
+    100008: //RootNode
+    100010: Diamante
+    100012: Ed_Base
+    100014: Ed_Base1
+    100016: Ed_BasePicudo
+    100018: Ed_Chino
+    100020: Ed_Cortado
+    100022: Ed_Diamante
+    100024: Ed_Escalerado
+    100026: Ed_Escalerado 1
+    100028: Ed_Escalerado1
+    100030: Ed_Esfera
+    100032: Ed_Esfera 1
+    100034: Ed_Mini
+    100036: Ed_Mini1
+    100038: Ed_MiniGordo
+    100040: Ed_MiniGordo1
+    100042: Ed_ParedEscalera
+    100044: Ed_ParedEscalera 1
+    100046: Ed_Rejas
+    100048: Ed_Rejillas
+    100050: Ed_Rooftop
+    100052: Ed_Rooftop1
+    100054: Ed_Rooftop2
+    100056: Ed_Triangulos
+    100058: Ed_Triangulos1
+    100060: Escalerado
+    100062: Escalerado1
+    100064: EsferaChica
+    100066: EsferaGrande
+    100068: group1
+    100070: group2
+    100072: OrillaBeveled
+    100074: OrillaBeveled1
+    100076: ParedEscaleraDer
+    100078: ParedEscaleraDer 1
+    100080: ParedEscaleraIzq
+    100082: ParedEscaleraIzq 1
+    100084: Picudo
+    100086: Punta
+    100088: Rejilas
+    100090: SoporteEsferita
+    400000: Antena
+    400002: Antena1
+    400004: AntenaEsfera
+    400006: CiudadExtra
+    400008: //RootNode
+    400010: Diamante
+    400012: Ed_Base
+    400014: Ed_Base1
+    400016: Ed_BasePicudo
+    400018: Ed_Chino
+    400020: Ed_Cortado
+    400022: Ed_Diamante
+    400024: Ed_Escalerado
+    400026: Ed_Escalerado 1
+    400028: Ed_Escalerado1
+    400030: Ed_Esfera
+    400032: Ed_Esfera 1
+    400034: Ed_Mini
+    400036: Ed_Mini1
+    400038: Ed_MiniGordo
+    400040: Ed_MiniGordo1
+    400042: Ed_ParedEscalera
+    400044: Ed_ParedEscalera 1
+    400046: Ed_Rejas
+    400048: Ed_Rejillas
+    400050: Ed_Rooftop
+    400052: Ed_Rooftop1
+    400054: Ed_Rooftop2
+    400056: Ed_Triangulos
+    400058: Ed_Triangulos1
+    400060: Escalerado
+    400062: Escalerado1
+    400064: EsferaChica
+    400066: EsferaGrande
+    400068: group1
+    400070: group2
+    400072: OrillaBeveled
+    400074: OrillaBeveled1
+    400076: ParedEscaleraDer
+    400078: ParedEscaleraDer 1
+    400080: ParedEscaleraIzq
+    400082: ParedEscaleraIzq 1
+    400084: Picudo
+    400086: Punta
+    400088: Rejilas
+    400090: SoporteEsferita
+    2100000: lambert1
+    2300000: Antena
+    2300002: Antena1
+    2300004: AntenaEsfera
+    2300006: CiudadExtra
+    2300008: Diamante
+    2300010: Ed_Base
+    2300012: Ed_Base1
+    2300014: Ed_BasePicudo
+    2300016: Ed_Chino
+    2300018: Ed_Cortado
+    2300020: Ed_Diamante
+    2300022: Ed_Escalerado 1
+    2300024: Ed_Escalerado1
+    2300026: Ed_Esfera 1
+    2300028: Ed_Mini
+    2300030: Ed_Mini1
+    2300032: Ed_MiniGordo
+    2300034: Ed_MiniGordo1
+    2300036: Ed_ParedEscalera
+    2300038: Ed_ParedEscalera 1
+    2300040: Ed_Rejillas
+    2300042: Ed_Rooftop
+    2300044: Ed_Rooftop1
+    2300046: Ed_Rooftop2
+    2300048: Escalerado
+    2300050: Escalerado1
+    2300052: EsferaChica
+    2300054: EsferaGrande
+    2300056: OrillaBeveled
+    2300058: OrillaBeveled1
+    2300060: ParedEscaleraDer
+    2300062: ParedEscaleraDer 1
+    2300064: ParedEscaleraIzq
+    2300066: ParedEscaleraIzq 1
+    2300068: Punta
+    2300070: Rejilas
+    2300072: SoporteEsferita
+    3300000: Antena
+    3300002: Antena1
+    3300004: AntenaEsfera
+    3300006: CiudadExtra
+    3300008: Diamante
+    3300010: Ed_Base
+    3300012: Ed_Base1
+    3300014: Ed_BasePicudo
+    3300016: Ed_Chino
+    3300018: Ed_Cortado
+    3300020: Ed_Diamante
+    3300022: Ed_Escalerado 1
+    3300024: Ed_Escalerado1
+    3300026: Ed_Esfera 1
+    3300028: Ed_Mini
+    3300030: Ed_Mini1
+    3300032: Ed_MiniGordo
+    3300034: Ed_MiniGordo1
+    3300036: Ed_ParedEscalera
+    3300038: Ed_ParedEscalera 1
+    3300040: Ed_Rejillas
+    3300042: Ed_Rooftop
+    3300044: Ed_Rooftop1
+    3300046: Ed_Rooftop2
+    3300048: Escalerado
+    3300050: Escalerado1
+    3300052: EsferaChica
+    3300054: EsferaGrande
+    3300056: OrillaBeveled
+    3300058: OrillaBeveled1
+    3300060: ParedEscaleraDer
+    3300062: ParedEscaleraDer 1
+    3300064: ParedEscaleraIzq
+    3300066: ParedEscaleraIzq 1
+    3300068: Punta
+    3300070: Rejilas
+    3300072: SoporteEsferita
+    4300000: Ed_Base
+    4300002: Ed_Rooftop
+    4300004: Ed_Mini
+    4300006: Ed_MiniGordo
+    4300008: Antena
+    4300010: OrillaBeveled
+    4300012: Ed_Cortado
+    4300014: Ed_Esfera
+    4300016: EsferaGrande
+    4300018: SoporteEsferita
+    4300020: EsferaChica
+    4300022: AntenaEsfera
+    4300024: Rejilas
+    4300026: Ed_Rejillas
+    4300028: ParedEscaleraIzq
+    4300030: ParedEscaleraDer
+    4300032: Ed_ParedEscalera
+    4300034: Escalerado
+    4300036: Ed_Escalerado
+    4300038: Escalerado1
+    4300040: Ed_Escalerado1
+    4300042: Ed_Chino
+    4300044: Ed_Rooftop1
+    4300046: Ed_BasePicudo
+    4300048: Punta
+    4300050: Antena1
+    4300052: OrillaBeveled1
+    4300054: Ed_Base1
+    4300056: ParedEscaleraIzq
+    4300058: ParedEscaleraDer
+    4300060: Ed_ParedEscalera
+    4300062: Ed_MiniGordo1
+    4300064: Ed_Rooftop2
+    4300066: Ed_Mini1
+    4300068: Diamante
+    4300070: Ed_Diamante
+    4300072: CiudadExtra
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
